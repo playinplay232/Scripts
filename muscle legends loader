@@ -1,0 +1,16 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua"))()
+local Window = Library.CreateLib("muscle legends hub by TREXXXMA", "Synapse")
+    -- MAIN
+    local Main = Window:NewTab("Main")
+    local MainSection = Main:NewSection("Main")
+
+
+    MainSection:NewButton("script one the best one", "best script", function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/Rolly_Hub/main/open-source-trash-loader.exe.yeah"))()
+    end)
+
+    MainSection:NewButton("only one script cuz im lazy", "none", function()
+    end)
+
+	 MainSection:NewButton("and it can do everything", "none", function()
+    end)
